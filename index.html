@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dafina Spa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+      }
+      .btn-pink,
+      .btn-outline-pink {
+        padding: 0.75rem 1.5rem;
+        font-weight: 400;
+        border-radius: 0.5rem;
+      }
+      .btn-pink {
+        background-color: #e178c5;
+        color: white;
+      }
+      .btn-pink:hover {
+        background-color: #d16eb2;
+      }
+      .btn-outline-pink {
+        border: 2px solid #e178c5;
+        color: #e178c5;
+      }
+      .btn-outline-pink:hover {
+        background-color: #e178c5;
+        color: white;
+      }
+      .text-pink {
+        color: #e178c5;
+      }
+      .bg-section {
+        background: url("./background.png") no-repeat center/cover;
+        min-height: 750px;
+      }
+      .navbar-nav .nav-link {
+        font-weight: 400;
+        margin: 0 10px;
+      }
+      .navbar {
+        padding: 1rem;
+      }
+      .navbar-brand {
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+      @media (max-width: 767px) {
+        .bg-section {
+          min-height: 500px;
+          text-align: center;
+        }
+        .btn-pink,
+        .btn-outline-pink {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        .navbar-nav {
+          text-align: center;
+        }
+        .navbar-brand img {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-white text-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <a class="navbar-brand text-pink" href="#"
+              ><img src="./logo.jpeg" width="30%" alt="dafina logo"
+            /></a>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-pink" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Treatment</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="py-5 d-flex flex-column flex-md-row align-items-center justify-content-between bg-section"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <h1 class="display-4 fw-light">
+              Glow your face and Spa with extract <br />flower
+            </h1>
+            <ul class="list-unstyled text-muted mt-3">
+              <li>&#10004; Facial and skincare treatment.</li>
+              <li>&#10004; Waxing, hair treatment and nail treatment.</li>
+              <li>&#10004; Complementary care such aromatherapy, massages.</li>
+            </ul>
+            <div class="mt-4">
+              <a
+                href="https://api.whatsapp.com/send/?phone=6289635938352&text&type=phone_number&app_absent=0"
+                target="_blank"
+                class="btn btn-pink me-2"
+                >Book Appointment</a
+              >
+              <a href="#" class="btn btn-outline-pink">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <hr class="text-pink" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
