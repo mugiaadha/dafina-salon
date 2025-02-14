@@ -45,6 +45,9 @@
         background: url("./background.png") no-repeat center/cover;
         min-height: 750px;
       }
+      .bg-light-pink {
+        background-color: #ffeff7;
+      }
       .navbar-nav .nav-link {
         font-weight: 400;
         margin: 0 10px;
@@ -56,6 +59,56 @@
         font-weight: 600;
         font-size: 1.5rem;
       }
+      .navbar-nav .nav-link:hover {
+        color: #e178c5 !important;
+      }
+      .border-pink {
+        border: 1px solid #e178c5;
+      }
+      .text-pink {
+        color: #e178c5; /* Adjust this color to match your design */
+      }
+
+      .bg-light {
+        background-color: #f8f9fa; /* Light background color */
+      }
+      .bg-light-pink {
+        background-color: #ffeff7;
+      }
+
+      .text-pink {
+        color: #e178c5;
+      }
+
+      .card-title {
+        font-weight: bold;
+      }
+
+      .card-text {
+        color: #6c757d;
+      }
+
+      .btn-pink {
+        background-color: #e178c5;
+        color: white;
+        border-radius: 0.5rem;
+      }
+
+      .btn-pink:hover {
+        background-color: #d16eb2;
+      }
+
+      footer p {
+        margin: 0; /* Remove default margin for paragraphs */
+      }
+
+      footer a {
+        text-decoration: none; /* Remove underline from links */
+      }
+
+      footer a:hover {
+        text-decoration: underline; /* Add underline on hover */
+      }
       @media (max-width: 767px) {
         .bg-section {
           min-height: 550px;
@@ -63,7 +116,7 @@
         }
 
         .bg-section ul li {
-          font-size:9pt;
+          font-size: 9pt;
         }
         .fw-light {
           margin-top: 100px;
@@ -142,7 +195,9 @@
         <div class="row">
           <div class="col-md-6 mb-4">
             <h1 class="display-4 fw-light">
-              Glow your face <br class="d-block d-md-none">and Spa with <br class="d-block d-md-none">extract <br class="d-none d-md-block">flower
+              Glow your face <br class="d-block d-md-none" />and Spa with
+              <br class="d-block d-md-none" />extract
+              <br class="d-none d-md-block" />flower
             </h1>
             <ul class="list-unstyled text-muted mt-3">
               <li>&#10004; Complementary care such aromatherapy, massages.</li>
@@ -173,6 +228,296 @@
         <a href="#" class="btn btn-outline-pink">Learn More</a>
       </div>
     </section>
+
+    <br />
+    <br />
+    <section class="about-us py-5 bg-light-pink d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6 align-items-center justify-content-between">
+            <img
+              src="./about-us2.png"
+              alt="About Us"
+              class="img-fluid rounded"
+              style="position: absolute; top: 850px; left: 150px"
+              width="30%"
+            />
+          </div>
+          <div class="col-md-6 my-5">
+            <h2 class="text-pink mb-3">ABOUT US</h2>
+            <h1 class="fw-light mb-4">
+              We are experienced in making you more beautiful
+            </h1>
+            <p class="text-muted mb-4">
+              We will make your skin better and also more glowing skin. And we
+              <br />
+              provide treatment spa and face with best service<br />
+              our employees.
+            </p>
+            <div>
+              <a href="#" class="btn btn-pink me-2">Book Now</a>
+              <a href="#" class="btn btn-outline-pink">Our Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-treatments py-5 my-5">
+      <div class="container">
+        <h2 class="text-center text-pink mb-3">OUR TREATMENT</h2>
+        <h3 class="text-center mb-5">Featured beauty treatment</h3>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-pink">
+              <img
+                src="./service1.png"
+                class="card-img-top"
+                alt="Facial Mask"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Facial Mask</h5>
+                <p class="card-text">
+                  Face masks often contain minerals, vitamins and fruit juices,
+                  such as cactus and cucumber. There are different types of
+                  masks for different purposes.
+                </p>
+                <div class="row">
+                  <p class="text-pink fw-bold">$222</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-pink">
+              <img
+                src="./service2.png"
+                class="card-img-top"
+                alt="Massage Therapy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Massage Therapy</h5>
+                <p class="card-text">
+                  Get a soothing massage sensation, <br />as well as a detailed
+                  facial procession with the support of the latest facilities
+                  from start to finish.
+                </p>
+                <div class="row">
+                  <p class="text-pink fw-bold">$124</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-pink">
+              <img
+                src="./service3.png"
+                class="card-img-top"
+                alt="Eyelash Extensions"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Eyelash Extensions</h5>
+                <p class="card-text">
+                  A cosmetic procedure performed to achieve long and curly
+                  eyelashes. Eyelash extension results look more natural.
+                </p>
+                <div class="row">
+                  <p class="text-pink fw-bold">$462</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing py-5 bg-light-pink">
+      <div class="container text-center">
+        <h5 class="text-pink mb-3">PLAIN PRICING</h5>
+        <h1 class="mb-5">We provide a very cheap pricelist</h1>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title">Eyelash Extensions</h5>
+                <h2 class="text-pink fw-light py-2">$500-600</h2>
+                <br />
+                <p class="card-text">
+                  A cosmetic procedure performed to achieve long and curly
+                  eyelashes. Eyelash extension results look more natural.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title">Spa Treatment</h5>
+                <h2 class="text-pink fw-light py-2">$500-600</h2>
+                <br />
+                <p class="card-text">
+                  Get a spa treatment sensation, with extract flower at your
+                  bath. And with support of the herbal ingredients spa.
+                </p>
+                <a href="#" class="btn btn-outline-pink">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title">Massage Therapy</h5>
+                <h2 class="text-pink fw-light py-2">$500-600</h2>
+                <br />
+                <p class="card-text">
+                  Get a soothing massage sensation, as well as a detailed facial
+                  procession with the support of the latest facilities from
+                  start to finish.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial py-5 bg-light">
+      <div class="container text-center">
+        <h5 class="text-pink mb-3">TESTIMONIAL</h5>
+        <h1 class="mb-4">What people’s say about our best services</h1>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="dummy-image.jpg"
+                class="d-block mx-auto mb-3"
+                alt="Testimonial"
+                style="width: 100px; height: 100px; border-radius: 50%"
+              />
+              <p class="mb-4">
+                I really like their services, their treatments also use
+                sophisticated tools and of course their spa is the best. Soon I
+                will return to Nyalonsis and will not regret and want again and
+                again.
+              </p>
+              <p><strong>Mocha Karisma</strong></p>
+              <p>Cirendeu, Batu Nunggal</p>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="dummy-image.jpg"
+                class="d-block mx-auto mb-3"
+                alt="Testimonial"
+                style="width: 100px; height: 100px; border-radius: 50%"
+              />
+              <p class="mb-4">
+                The staff is incredibly friendly and the atmosphere is so
+                relaxing. I always leave feeling rejuvenated and pampered.
+              </p>
+              <p><strong>Jane Doe</strong></p>
+              <p>Jakarta, Indonesia</p>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="dummy-image.jpg"
+                class="d-block mx-auto mb-3"
+                alt="Testimonial"
+                style="width: 100px; height: 100px; border-radius: 50%"
+              />
+              <p class="mb-4">
+                A wonderful experience! The treatments are top-notch and the
+                service is exceptional. Highly recommend!
+              </p>
+              <p><strong>John Smith</strong></p>
+              <p>Bandung, Indonesia</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount-alert py-5 bg-light-pink">
+      <div class="container text-center">
+        <h5 class="text-pink mb-3">DISCOUNT ALERT</h5>
+        <h1 class="my-5">
+          Subscribe and get <span class="fw-bold">50% off</span>
+        </h1>
+        <p class="my-5">
+          Get all treatments and you will get a discount until 50%.<br />
+          Come on ladies before all treatments run out!
+        </p>
+        <div class="d-flex justify-content-center">
+          <input
+            type="text"
+            class="form-control me-2"
+            placeholder="Enter your email or phone"
+            style="max-width: 300px"
+          />
+          <button class="btn btn-pink">Subscribe now</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-left mb-4">
+            <img src="./logo.jpeg" alt="Dafina Logo" width="50%" class="mb-3" />
+            <p>
+              We provide beauty treatment spa and face with best service our
+              employees and best quality. And don't forget discount wooee!!!
+            </p>
+          </div>
+          <div class="col-md-3 text-left px-5 mb-4">
+            <h5 class="text-pink">About</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark">Our Treatment</a></li>
+              <li><a href="#" class="text-dark">Our Customer</a></li>
+              <li><a href="#" class="text-dark">Pricelist</a></li>
+              <li><a href="#" class="text-dark">Spa</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-left mb-4">
+            <h5 class="text-pink">Support</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark">About Us</a></li>
+              <li><a href="#" class="text-dark">FAQ</a></li>
+              <li><a href="#" class="text-dark">Help</a></li>
+              <li><a href="#" class="text-dark">Privacy and Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-left mb-4">
+            <h5 class="text-pink">Contact Us</h5>
+            <p>nyalonsis@cingcong.com</p>
+            <p>+62 1234 8765 223</p>
+            <p>2301 Jl. Suka dia, Dipepet 1234</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
