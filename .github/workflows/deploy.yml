@@ -19,4 +19,4 @@ jobs:
           server: ftp.dafina.my.id
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          local-dir: ./
