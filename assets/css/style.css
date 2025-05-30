@@ -34,7 +34,7 @@ body {
 }
 
 .bg-section {
-  background: url("../images/background.png") no-repeat center/cover;
+  background: url("../images/background.webp") no-repeat center/cover;
   min-height: 750px;
 }
 
