@@ -744,7 +744,7 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-HYTCZ6M2CB"
     ></script>
     <script>
-      setTimeout(function () {
+      window.onload = function () {
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
@@ -761,7 +761,7 @@
             });
           });
         });
-      }, 3000);
+      };
     </script>
   </body>
 </html>
